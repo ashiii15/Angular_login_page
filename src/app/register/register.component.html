@@ -1,26 +1,25 @@
 <div class="w-25 m-auto">
     <form class="">
-        <div class="d-flex align-items-center ">
-            <img class="img-fluid rounded-pill" height="50px" width="50px" [src]="imgUrl" alt="">
-            <h4>{{title}}</h4>
+        <div class="d-flex align-items-center">
+            <h4>Register form</h4>
     
     
         </div>
         <!-- Email input -->
         <div class="form-outline  ">
-          <input (change)="userNameChange($event)" type="email" id="form2Example1" class="form-control " />
+          <input  type="email" id="form2Example1" class="form-control " />
           <label class="form-label" for="form2Example1">Email address</label>
         </div>
       
         <!-- Password input -->
         <div class="form-outline ">
-          <input (change)="passwordChanger($event)" type="password" id="form2Example2" class="form-control " />
+          <input  type="password" id="form2Example2" class="form-control " />
           <label class="form-label" for="form2Example2">Password</label>
         </div>
       
         
         <!-- Submit button -->
-        <button (click)="login()" type="button" class="btn btn-primary btn-block w-100">Sign in</button>
+        <button  type="button" class="btn btn-primary btn-block w-100">Register</button>
       
         <!-- Register buttons -->
         
